@@ -13,8 +13,8 @@ default: &default
   adapter: mysql2
   encoding: utf8
   pool: 5
-  username: <%= ENV['USEFUL-SHUFFLE_DATABASE_USERNAME'] %>
-  password: <%= ENV['USEFUL-SHUFFLE_DATABASE_PASSWORD'] %>
+  username: <%= ENV['USEFUL_SHUFFLE_DATABASE_USERNAME'] %>
+  password: <%= ENV['USEFUL_SHUFFLE_DATABASE_PASSWORD'] %>
   socket: /var/run/mysqld/mysqld.sock
 
 development:
