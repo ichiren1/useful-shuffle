@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-
+ruby '2.3.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
+gem 'rails', '~> 5.0.0'
 # Use mysql as the database for Active Record
-gem 'mysql2', '>= 0.3.18', '< 0.5'
+gem 'mysql2', '~> 0.4.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -19,6 +19,9 @@ gem 'puma', '~> 3.0'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
+
+# 管理画面自動生成
+gem 'administrate', '~> 0.3.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
