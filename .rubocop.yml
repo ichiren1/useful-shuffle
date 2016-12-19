@@ -3,6 +3,8 @@ AllCops:
     - 'vendor/**/*'
     - 'bin/*'
     - 'db/schema.rb'
+    - 'Gemfile'
+    - 'config/**/*'
 Rails:
   Enabled: true
 Style/Documentation:
