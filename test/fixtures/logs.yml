@@ -2,10 +2,10 @@
 
 one:
   type: 
-  elementt: MyString
+  element: MyString
   result: MyString
 
 two:
   type: 
-  elementt: MyString
+  element: MyString
   result: MyString
