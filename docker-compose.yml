@@ -27,6 +27,8 @@ services:
       MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
     volumes_from:
       - data
+    ports:
+      - 3306:3306
   data:
     image: 'busybox'
     volumes:
