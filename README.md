@@ -3,3 +3,22 @@
 
 - URL
  - http://useful-shuffle.club/
+
+## Setup
+```
+$ git clone git@github.com:ichiren1/useful-shuffle.git
+$ cd useful-shuffle
+$ bundle install --job=4
+$ bundle exec rails db:create
+```
+
+## Setup(Using Docker)
+- Install `Docker for Mac` or `Docker for Windows`
+
+```
+$ git clone git@github.com:ichiren1/useful-shuffle.git
+$ cd useful-shuffle
+$ docker-compose build
+$ docker-compose up -d
+$ docker-compose exec spring rails db:create
+```
