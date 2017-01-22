@@ -1,9 +1,18 @@
+# == Schema Information
+#
+# Table name: ichiren_shuffles
+#
+#  id         :integer          not null, primary key
+#  element    :string(255)
+#  result     :string(255)
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
 class Ichiren::Shuffle < ApplicationRecord
-  def self.type
-    'shuffle'
-  end
+  include Ichiren
 
   def execute
-    @result = @element.shuffle
+    element.split(',').shuffle
   end
 end
