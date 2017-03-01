@@ -18,7 +18,6 @@ $ bundle exec rails db:create
 ```
 $ git clone git@github.com:ichiren1/useful-shuffle.git
 $ cd useful-shuffle
-$ docker-compose build
+$ docker-compose run --rm spring rails db:setup
 $ docker-compose up -d
-$ docker-compose exec spring rails db:create
 ```
