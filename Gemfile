@@ -30,6 +30,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'rubocop', require: false
   gem 'pre-commit'
+  gem 'rspec-rails', '~> 3.5'
 end
 
 group :development do
