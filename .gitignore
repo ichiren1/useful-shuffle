@@ -17,3 +17,7 @@
 .byebug_history
 
 /vendor/bundle
+
+# Client
+node_modules
+npm-debug.log
